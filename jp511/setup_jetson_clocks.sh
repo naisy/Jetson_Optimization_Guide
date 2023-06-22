@@ -13,5 +13,5 @@ fi
 ########################################
 cp jetson_clocks.service /etc/systemd/system/jetson_clocks.service
 
-systemctl daemon reload
+systemctl daemon-reload
 systemctl enable jetson_clocks.service
